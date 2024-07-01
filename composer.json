@@ -1,14 +1,12 @@
 {
-    "name": "duncan3dc/sonos",
+    "name": "arduinomaster22/sonos",
     "type": "library",
     "description": "Control Sonos speakers using a simple API",
     "keywords": ["sonos","upnp","streaming"],
     "homepage": "https://github.com/duncan3dc/sonos",
     "license": "Apache-2.0",
     "authors": [{
-        "name": "Craig Duncan",
-        "email": "git@duncanc.co.uk",
-        "homepage": "https://github.com/duncan3dc",
+        "name": "Manoj Hortulanus",
         "role": "Developer"
     }],
     "require": {
