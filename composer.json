@@ -2,43 +2,53 @@
     "name": "arduinomaster22/sonos",
     "type": "library",
     "description": "Control Sonos speakers using a simple API",
-    "keywords": ["sonos","upnp","streaming"],
+    "keywords": [
+        "sonos",
+        "upnp",
+        "streaming"
+    ],
     "homepage": "https://github.com/duncan3dc/sonos",
     "license": "Apache-2.0",
-    "authors": [{
-        "name": "Manoj Hortulanus",
-        "role": "Developer"
-    }],
+    "authors": [
+        {
+            "name": "Manoj Hortulanus",
+            "role": "Developer"
+        }
+    ],
     "require": {
-        "duncan3dc/cache": "^1.0",
-        "duncan3dc/domparser": "^1.4.1 || ^2.1",
-        "duncan3dc/logger-aware-trait": "^0.2 || ^1.0",
-        "duncan3dc/sonos-common": "^1.0",
-        "duncan3dc/speaker": "^1.0",
-        "guzzlehttp/guzzle": "^6.0 || ^7.0",
-        "league/flysystem": "^1.1.4",
-        "psr/log": "^1.1",
-        "psr/simple-cache": "^1.0",
+        "duncan3dc/cache": "*",
+        "duncan3dc/domparser": "*",
+        "duncan3dc/logger-aware-trait": "*",
+        "duncan3dc/sonos-common": "*",
+        "duncan3dc/speaker": "*",
+        "guzzlehttp/guzzle": "*",
+        "league/flysystem": "*",
+        "psr/log": "*",
+        "psr/simple-cache": "*",
         "ext-soap": "*",
         "ext-sockets": "*",
         "php": "^8.3"
     },
     "require-dev": {
-        "duncan3dc/object-intruder": "^0.3 || ^1.0",
-        "maglnet/composer-require-checker": "^2.0 || ^3.0 || ^4.0",
-        "mockery/mockery": "^1.5",
-        "nikic/php-parser": "^4.13",
-        "phpstan/phpstan": "^0.12.99",
-        "phpstan/phpstan-mockery": "^0.12.14",
-        "phpstan/phpstan-phpunit": "^0.12.22",
-        "squizlabs/php_codesniffer": "^3.6",
-        "phpunit/phpunit": "^9.5"
+        "duncan3dc/object-intruder": "*",
+        "maglnet/composer-require-checker": "*",
+        "mockery/mockery": "*",
+        "nikic/php-parser": "*",
+        "phpstan/phpstan": "*",
+        "phpstan/phpstan-mockery": "*",
+        "phpstan/phpstan-phpunit": "*",
+        "squizlabs/php_codesniffer": "*",
+        "phpunit/phpunit": "*"
     },
     "autoload": {
-        "psr-4": {"duncan3dc\\Sonos\\": "src/"}
+        "psr-4": {
+            "duncan3dc\\Sonos\\": "src/"
+        }
     },
     "autoload-dev": {
-        "psr-4": {"duncan3dc\\SonosTests\\": "tests/"}
+        "psr-4": {
+            "duncan3dc\\SonosTests\\": "tests/"
+        }
     },
     "scripts": {
         "test": [
@@ -49,5 +59,5 @@
             "vendor/bin/phpcs"
         ]
     },
-        "minimum-stability": "dev"
+    "minimum-stability": "dev"
 }
